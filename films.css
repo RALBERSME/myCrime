@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh;
+  background: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url("london.jpg");
+  background-size: cover;
+}
+
+section .skewed {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform: skewY(-10deg);
+  transform-origin: top left;
+}
+.container {
+  position: absolute;
+  bottom: -99%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.temple {
+  margin: 2rem;
+  padding: 0 10%;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+}
+
+li {
+  margin: 2rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: wavy;
+  color: blueviolet;
+}
+
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  width: 100%;
+  background-color: rgb(248, 213, 58);
+  border-radius: 5px;
+}
+
+.leave {
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  line-height: 80px;
+  color: #250e74;
+  border: 4px solid #250e74;
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  padding: 5px;
+}
+
+.leave:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #250e74;
+}

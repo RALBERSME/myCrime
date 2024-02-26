@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.half {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+.container {
+  margin: 5rem;
+  height: calc(100% - 5rem);
+  width: calc(100% - 5rem);
+  position: relative;
+}
+.container2 {
+  color: white;
+  margin: 5rem;
+  margin-left: 10%;
+  height: calc(100% - 5rem);
+  width: calc(100% - 5rem);
+  position: relative;
+}
+
+#frontImg {
+  border: 5px solid white;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.myCrime {
+  color: white;
+
+  font-size: 3rem;
+  position: absolute;
+  top: 650px;
+  left: 350px;
+}
+.intro {
+  font-size: 1.95rem;
+  position: absolute;
+  top: 50px;
+  width: 80%;
+}
+button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  border-radius: 5px;
+  width: 95%;
+}
+button:hover {
+  background-color: #cb2424;
+  cursor: pointer;
+}
