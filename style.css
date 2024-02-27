@@ -62,9 +62,11 @@ button:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
   .half {
-    grid-template-columns: 1fr;
+    /*grid-template-columns: 1fr;*/
+    display: flex;
+    flex-direction: column;
   }
   #frontImg {
     border: 5px solid white;
