@@ -61,3 +61,23 @@ button:hover {
   background-color: #cb2424;
   cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+  .half {
+    grid-template-columns: 1fr;
+  }
+  #frontImg {
+    border: 5px solid white;
+    border-radius: 5px;
+    position: relative;
+    width: 80%;
+  }
+  .myCrime {
+    color: white;
+
+    font-size: 2rem;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+  }
+}

@@ -64,3 +64,14 @@ a {
   color: #4e2bc2;
   cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+  .content {
+    width: 350px;
+  }
+  .leave {
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 2.5px;
+  }
+}

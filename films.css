@@ -88,3 +88,11 @@ button {
   cursor: pointer;
   background-color: #250e74;
 }
+
+@media screen and (max-width: 800px) {
+  .leave {
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 3.5px;
+  }
+}
